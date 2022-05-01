@@ -1,19 +1,9 @@
 # xdino
 
-## Project setup
-```
-npm install
-```
+**THIS REPOSITORY DOES NOT REPRESENT THE FINAL LOOK.**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+This is an early version of my new website, and is only for demonstration.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Note that ***everything*** here will be rewritten.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Demo at [xdino.vercel.app](https://xdino.vercel.app/). Feel free to check.
