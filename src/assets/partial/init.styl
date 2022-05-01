@@ -1,0 +1,56 @@
+font-desktop = "EB Garamond", source-han-serif-sc, "source han serif sc", "source han serif cn", "source han serif tc", "source han serif tw", "source han serif", "simsun", songti sc, microsoft yahei, serif
+font-mobile = "EB Garamond", "Noto Serif SC", source-han-serif-sc, "source han serif sc", "source han serif cn", "source han serif tc","source han serif tw", "source han serif", "simsun", songti sc, microsoft yahei, serif
+font-code = "JetBrains Mono", monospace;
+
+html, body
+    background-image: linear-gradient(339deg, #2f2f2f05 0%, #2f2f2f05 42%,transparent 42%, transparent 99%,#11111105 99%, #11111105 100%),linear-gradient(257deg, #41414105 0%, #41414105 11%,transparent 11%, transparent 92%,#35353505 92%, #35353505 100%),linear-gradient(191deg, #05050505 0%, #05050505 1%,transparent 1%, transparent 45%,#13131305 45%, #13131305 100%),linear-gradient(29deg, #1c1c1c05 0%, #1c1c1c05 33%,transparent 33%, transparent 40%,#dcdcdc05 40%, #dcdcdc05 100%),linear-gradient(90deg, #fff, #fff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+#app
+    font-family: font-desktop
+
+pre, code
+    font-family: font-code !important
+
+@media screen and (max-width: 600px)
+    #app
+        font-family: font-mobile
+
+.gpu
+    perspective: 1000px;
+
+.search-enter-active,
+.search-leave-active
+    transition: opacity 0.5s ease;
+
+.search-enter-from,
+.search-leave-to
+    opacity: 0;
+
+.fade-enter-active
+    transition: all 0.3s ease-in;
+
+.fade-leave-active
+    transition: all 0.3s ease-out;
+
+.fade-enter-from,
+.fade-leave-to
+    transform: translateY(10px);
+    opacity: 0;
+
+.fade-leave-to
+    display: none;
+
+*::-moz-selection
+    background-color: rgba(187, 221, 251, 0.5);
+
+*::selection
+    background-color: rgba(187, 221, 251, 0.5);
+
+*
+    -webkit-tap-highlight-color: transparent;
+
+@media screen and (max-width: 600px)
+    #cursor
+        display: none !important;

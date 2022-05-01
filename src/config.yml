@@ -1,0 +1,41 @@
+author: Xecades
+
+siteurl: https://blog.xecades.xyz
+
+previous: Previous
+next: Next
+
+postsPerPage: 9
+
+searchPlaceholder: Search in the void.
+
+nav:
+    title: Xecades
+    text: 凛冬散尽，星河长明。
+
+    menu:
+        - name: 开往
+          url: https://travellings.link/
+        - name: 分类
+          url: /categories
+        - name: 文章
+          url: /
+        - name: 主页
+          url: https://xecades.xyz/
+
+cover:
+    placeholder: 请稍事等候。
+    default: 朝曦迎客艳重冈，晚雨留人入醉乡。
+
+    home:
+        textLarge: 欢迎光临寒舍，
+        description: 您的到来让陋室蓬荜生辉。
+    category:
+        textLarge: 文章分类
+        description:
+
+copyright:
+    start: 2019
+
+footer:
+    text: Powered by TencentCloud, Vue, Tailwind CSS and NodeJS.

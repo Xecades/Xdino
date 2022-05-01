@@ -1,0 +1,84 @@
+.markdown
+    @apply leading-7
+    p
+        @apply my-4 text-justify break-words
+    h1
+        @apply text-3xl
+    h2
+        @apply text-2xl
+    h3
+        @apply text-xl
+    h4
+        @apply text-lg
+    h5
+        @apply text-base
+    h6
+        @apply text-sm
+    h1, h2, h3, h4, h5, h6
+        @apply mt-8 mb-8 font-bold relative
+    
+    input[type=checkbox]
+        @apply mr-2 align-baseline ml-1
+    del
+        text-decoration-thickness: 1px
+    a
+        @apply text-gray-500 relative mx-1
+        &:after
+            @apply inline-block absolute bottom-0 bg-opacity-30 bg-gray-400
+            content: "";
+            top: 60%;
+            left: -.1rem;
+            right: -.1rem;
+            transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+        &:hover:after
+            @apply top-0
+        .external
+            @apply text-xs leading-none ml-1 text-gray-400
+    
+    .inline-fas
+        @apply text-sm leading-none text-gray-500 mx-1
+
+    ul, ol
+        @apply pl-8 list-inside
+    ul
+        list-style: circle
+    ol
+        list-style: decimal
+    li::marker
+        @apply text-gray-400
+    img
+        @apply mx-auto rounded my-5
+        +.caption
+            @apply w-full block relative text-center mt-1
+            span
+                @apply inline-block text-sm text-gray-400 relative mb-5
+                &:after
+                    @apply inline-block absolute border-t border-gray-300 border-dashed
+                    content: "";
+                    bottom: -2px;
+                    left: -.1rem;
+                    right: -.1rem;
+
+    code:not(.hljs)
+        @apply bg-gray-100 rounded leading-none p-1 text-gray-600
+        margin: 0 0.125rem
+    blockquote
+        @apply pl-5 py-1 border-l-4 border-gray-100 text-gray-600 bg-gray-50 text-opacity-90 mb-4
+    &>blockquote
+        @apply pr-5 rounded-r
+    pre
+        @apply rounded border bg-gray-100 bg-opacity-50
+    hr
+        @apply my-10
+    .checkbox
+        @apply mr-2 text-gray-300
+    .hljs
+        @apply relative
+        .ln
+            @apply relative left-0 w-10 text-center inline-block select-none -ml-4 mr-4 border-r border-opacity-50
+
+            &::before
+                @apply text-gray-400 text-opacity-70
+                content: attr(data-num);
+        .ln-eof
+            display: inline-block;

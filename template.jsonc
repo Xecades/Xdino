@@ -1,0 +1,29 @@
+// require(`@/posts/${$[i].url}.md`)
+
+{
+    "$": {
+        "0": {
+            "title": "测试功能块",
+            "thumbnail": "test.png",
+            "date": "2022-10-04T18:23:17.000Z",
+            "category": "功能",
+            "pin": true,
+            "link": "xxx",
+            "url": "article1"
+        },
+        "article1": 0
+    },
+    "CATE": {
+        "功能": [0],
+        "测试": [
+            1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
+            20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36,
+            37, 38, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49
+        ],
+        "未分类": [41]
+    },
+    "data": {
+        "excerpt": "<p>TODO: 自定义 snippet 用 <code>[function](@ &quot;args&quot;)</code> 代替</p>\n",
+        "content": "<p><MDlink url=\"https://xecades.xyz/\" card=\"j card\">qwq</MDlink></p>\n<p>Eventually {% label(&quot;warning&quot;, &quot;swaying&quot;) %}</p>\n<h2 id=\"链接卡片\">链接卡片</h2>\n<p>{% linkcard(&quot;<MDlink url=\"https://xecades.xyz/&quot;\" card=\"undefined\">https://xecades.xyz/&quot;</MDlink>, &quot;Xecades 的博客&quot;) %}</p>\n<hr>\n<h2 id=\"提示信息\">提示信息</h2>\n<p>{% note(&quot;info&quot;, &quot;这里是 info 的提示内容&quot;) %}</p>\n<p>{% note(&quot;important&quot;, &quot;这里是 important 的提示内容&quot;) %}</p>\n<p>{% note(&quot;tip&quot;, &quot;这里是 tip 的提示内容&quot;) %}</p>\n<p>{% note(&quot;caution&quot;, &quot;这里是 caution 的提示内容&quot;) %}</p>\n<p>{% note(&quot;warning&quot;, &quot;这里是 warning 的提示内容&quot;) %}</p>\n<p>TODO: 实现这样的语法：</p>\n<pre><code class=\"hljs language-txt\"><span class=\"ln-bg\"></span><span class=\"ln\" data-num=\"  1\"></span>{% begin note caution %}\n<span class=\"ln\" data-num=\"  2\"></span>这里是 **Caution** 的提示内容\n<span class=\"ln\" data-num=\"  3\"></span>{% end note %}\n</code></pre>\n<hr>\n<h2 id=\"居中引用\">居中引用</h2>\n<p>{% quote(&quot;我不去想是否能够成功，既然选择了远方，便只顾风雨兼程.&quot;) %}</p>\n<hr>\n<h2 id=\"背景颜色\">背景颜色</h2>\n<p>I heard the echo, {% label(&quot;default&quot;, &quot;from the valleys and the heart&quot;) %}</p>\n<p>Open to the lonely soul of {% label(&quot;info&quot;, &quot;sickle harvesting&quot;) %}</p>\n<p>Repeat outrightly, but also repeat the well-being of</p>\n<p>Eventually {% label(&quot;warning&quot;, &quot;swaying in the desert oasis&quot;) %}</p>\n<p>{% label(&quot;success&quot;, &quot;I believe&quot;) %} I am</p>\n<p>{% label(&quot;primary&quot;, &quot;Born as the bright summer flowers&quot;) %}</p>\n<p>Do not withered undefeated fiery demon rule</p>\n<p>Heart rate and breathing to bear {% label(&quot;danger&quot;, &quot;the load of the cumbersome&quot;) %}</p>\n<p>Bored</p>\n<hr>\n<h2 id=\"隐藏文字\">隐藏文字</h2>\n<p>{% spoiler(&quot;You can&#39;t see me!&quot;) %}</p>\n"
+    }
+}

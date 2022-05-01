@@ -1,0 +1,48 @@
+{
+    "name": "xdino",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "autoprefixer": "^9",
+        "core-js": "^3.6.5",
+        "fuse.js": "^6.4.6",
+        "gsap": "^3.8.0",
+        "highlightjs-line-numbers.js": "^2.8.0",
+        "jinrishici": "^1.0.6",
+        "json-loader": "^0.5.7",
+        "postcss": "^7",
+        "register-service-worker": "^1.7.1",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+        "vue": "^3.0.0",
+        "vue-router": "^4.0.0-0",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "^3.0.0-4",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-pwa": "~4.5.0",
+        "@vue/cli-plugin-router": "~4.5.0",
+        "@vue/cli-service": "^4.5.13",
+        "@vue/compiler-sfc": "^3.0.0",
+        "animate.css": "^4.1.1",
+        "dayjs": "^1.10.7",
+        "file-loader": "^6.2.0",
+        "fs-extra": "^10.0.0",
+        "gray-matter": "^4.0.3",
+        "highlight.js": "^11.2.0",
+        "html-loader": "^1.3.2",
+        "marked": "^3.0.4",
+        "medium-zoom": "^1.0.6",
+        "stylus": "^0.54.7",
+        "stylus-loader": "^3.0.2",
+        "vue-cli-plugin-tailwind": "^2.0.6",
+        "vue-cli-plugin-yaml": "~1.0.2"
+    }
+}
