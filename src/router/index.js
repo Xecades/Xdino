@@ -8,7 +8,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    mode:'history',
+    mode: 'history',
     history: createWebHistory(process.env.BASE_URL),
     routes,
     scrollBehavior() {
@@ -18,6 +18,13 @@ const router = createRouter({
             behavior: "smooth",
         };
     },
+
+    // scrollBehavior(to, from, savedPosition) {
+    //     if (savedPosition)
+    //         return savedPosition;
+    //     else
+    //         return { left: 0, top: 0, behavior: "smooth" };
+    // },
 });
 
 for (let i = 0; i < $.length; i++) {
